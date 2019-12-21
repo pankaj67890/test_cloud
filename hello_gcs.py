@@ -11,4 +11,4 @@ def hello_gcs(event, context):
     full_path=event['name']
     pathString = full_path.split('/')
     fileName = pathString[-1]
-    logging.info('New file-' +fileName+' has been uploaded to input bucket')
+    logging.info('Pankaj=New file-' +fileName+' has been uploaded to input bucket')
