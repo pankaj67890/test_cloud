@@ -1,6 +1,6 @@
 import logging
 
-def hello_gcs():
+def hello_gcs(context,event):
     """Triggered by a change to a Cloud Storage bucket.
     Args:
          event (dict): Event payload.
